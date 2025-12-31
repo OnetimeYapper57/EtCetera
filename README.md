@@ -1,5 +1,5 @@
 # EtCetera
-A RimWorld mod for 1.6 that improves descriptive text. Inspired by the mod Verbose. All information sourced from the official Rimworld Wiki.
+A RimWorld mod for 1.6 that improves descriptive text. Inspired by the mod Verbose. All statistical information sourced from the official Rimworld Wiki.
 <br/>
 <br/>
-“Portions of the materials used to create this content/mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This content/mod is not official and is not endorsed by Ludeon.”
+Portions of the materials used to create this content/mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This content/mod is not official and is not endorsed by Ludeon.

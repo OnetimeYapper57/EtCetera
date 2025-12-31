@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Marble -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Marble"]/description</xpath>
+		<value>
+			<description>A soft metamorphic rock. It is quite beautiful when cut into bricks. It is less durable than most stone.</description>
+		</value>
+	</Operation>
+
+	<!-- Sandstone -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Sandstone"]/description</xpath>
+		<value>
+			<description>A sedimentary rock composed of sand particles compressed together. It is easier to work with than most stone.</description>
+		</value>
+	</Operation>
+
+	<!-- Limestone -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Limestone"]/description</xpath>
+		<value>
+			<description>A sedimentary rock formed from the compacted remains of ancient seashells. It is more durable than most stone.</description>
+		</value>
+	</Operation>
+
+	<!-- Granite -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Sandstone"]/description</xpath>
+		<value>
+			<description>A very hard igneous rock. It is the most durable kind of stone.</description>
+		</value>
+	</Operation>
+</Patch>

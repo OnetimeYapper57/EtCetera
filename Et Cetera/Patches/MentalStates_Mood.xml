@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Berserk -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Berserk"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} has reached a breaking point and gone berserk.\n\n[PAWN_pronoun] will assault anyone [PAWN_pronoun] sees.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Berserk"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>{0} has calmed down from [PAWN_possessive] violent rage.</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- Pyro -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="FireStartingSpree"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} has gotten tired of the lack of open flame and has decided to start "just one or two".\n\n{0} will wander around for a while, randomly starting fires regardless of how inconvenient the timing is.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="FireStartingSpree"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>{0} has finally put down the urge to be an arsonist...</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- Jailbreaker -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Jailbreaker"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} has had a transformative and unique thought. Keeping enemies locked in cages is no better than treating them like animals! They must be freed! Order be damned! Society be damned! It's time for Revolution! We'll figure the rest out later!\n\n{0} has begun to break prisoners out and continuously rants about oppression while doing so.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Jailbreaker"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>{0} realized that a free prisoner could kill [PAWN_objective]. Suddenly, treating enemies like animals doesn't seem so bad.</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- Slaughterer -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Slaughterer"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} has been possessed with a psychopathic rage and has decided to channel that rage by slaughtering tamed animals.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Slaughterer"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>{0} has recovered enough sanity to stop killing random farm animals.</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- Murderous Rage -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="MurderousRage"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} has mentally broken down from extreme stress. [PAWN_possessive] eyes dart around frantically looking for an outlet. And [PAWN_pronoun] found one.\n\n{0} has decided [PAWN_pronoun] must kill {1}, no matter the cost.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="MurderousRage"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>{0} has regained [PAWN_possessive] humanity. Whether [PAWN_possessive] relationship with {1} is salvageable is uncertain.</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- Give Up :( -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="GiveUpExit"]/beginLetter</xpath>
+    <value>
+      <beginLetter>Despite [PAWN_possessive] best efforts. It never feels like enough. At the end of the day, maybe things are better this way. {0} has given up on life in this colony.\n\n[PAWN_pronoun] has decided to leave and pursue a better one elsewhere.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="GiveUpExit"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>We've made it through worse. Maybe we can make it through this too. {0} has had a change of heart and is coming back to the colony.</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- Wander -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Wander_Psychotic"]/beginLetter</xpath>
+    <value>
+      <beginLetter>The stress was just too much for [PAWN_objective] to bear. {0}'s mind has broken and [PAWN_pronoun] is wandering around in a daze.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Wander_Psychotic"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>{0} has snapped out of [PAWN_possessive] daze.</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- Tantrum -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Tantrum"]/beginLetter</xpath>
+    <value>
+      <beginLetter>A thousand different problems and no solutions! What's the point of it all! {0} has started throwing a tantrum!\n\n[PAWN_pronoun] will smash up random furniture, items and structures while ranting at colonists.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Tantrum"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>{0} has worked the stress out of [PAWN_possessive] system. {0}'s tantrum has ended.</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- Targeted Tantrum -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="TargetedTantrum"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} is throwing a tantrum.\n\n[PAWN_pronoun] plans to destroy {1} as soon as possible.</beginLetter>
+    </value>
+  </Operation>
+
+  <!-- Bedroom Tantrum -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="BedroomTantrum"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} is throwing a tantrum.\n\n[PAWN_pronoun] plans to smash various things in [PAWN_possessive] room until the rage settles.</beginLetter>
+    </value>
+  </Operation>
+
+  <!-- Sadistic Rage -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="SadisticRage"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} has hit a breaking point and desperately needs an outlet.\n\n[PAWN_pronoun] has flown into a sadistic rage and is going to vent [PAWN_possessive] anger on the prisoners.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="SadisticRage"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>{0} has calmed down from [PAWN_possessive] sadistic rage.</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- Dig Up Fucking Corpses What the Fuck -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="CorpseObsession"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} has lost [PAWN_possessive] mind and is wandering towards a nearby grave or sarcophagus.\n\n[PAWN_pronoun] is going to dig up a body, preferably one with decayed flesh loosely sagging off the bones, and present it for all to see.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="CorpseObsession"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>{0} is no longer obsessed with corpses. What the fuck was [PAWN_pronoun] thinking?!</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- Binging_Food -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Binging_Food"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} has decided to fill the hole in [PAWN_possessive] heart with food.\n\n{0} will binge eat any food [PAWN_pronoun] can find, even if it is forbidden or otherwise disallowed, and regardless of their hunger.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Binging_Food"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>With great control, {0} has stopped rapidly draining our food stocks. [PAWN_pronoun] claims to regret nothing and would proudly do it all again.</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- Sad Wander -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Wander_Sad"]/beginLetter</xpath>
+    <value>
+      <beginLetter>The pain, the hopelessness, the stress of survival, all of it. This crushing weight has grown to be heavier than [PAWN_pronoun] is willing to bear.\n\n{0} has broken down and is moping around in sadness.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Wander_Sad"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>"Things can get better. They WILL get better! We can do this!" {0} has regained hope.</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- Sad Wander Room -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Wander_OwnRoom"]/beginLetter</xpath>
+    <value>
+      <beginLetter>The pain, the hopelessness, the stress of survival, all of it. This crushing weight has grown to be heavier than [PAWN_pronoun] is willing to bear.\n\n{0} has broken down and shut [PAWN_objective]self in [PAWN_possessive] room.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Wander_OwnRoom"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>"Think positive. We've been through worse. We haven't lost just yet!" {0} has regained hope.</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- #1 Hater -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="InsultingSpree"]/beginLetter</xpath>
+    <value>
+      <beginLetter>"Are these fucking chimps out of their damned minds?! What the fuck are we doing? Look at this!"\n\n{0} has gone on an insulting spree and will follow colonists around, shit talking them all the while.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="TargetedInsultingSpree"]/beginLetter</xpath>
+    <value>
+      <beginLetter>"Look at this dopey knuckle-dragging idiot! Slobbering on the fucking ground and breathing my oxygen!"\n\n{0} has fixated [PAWN_possessive] rage on {1} and will follow them around, insulting them and potentially starting a fight.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="InsultingSpree"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>Maybe viciously insulting your own allies wasn't the best idea. {0} was glad to get that out of [PAWN_objective] system.</recoveryMessage>
+    </value>
+  </Operation>
+
+</Patch>

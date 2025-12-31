@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- Prosthetic Leg -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="SimpleProstheticLeg"]/description</xpath>
+    <value>
+      <description>An installed prosthetic leg. Prosthetic legs restore Moving to comparable levels to an organic leg. This body part should be replaced with something more advanced as soon as possible.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallSimpleProstheticLeg"]/description</xpath>
+    <value>
+      <description>Install a prosthetic leg. Each leg installed restores Moving by 42.5%</description>
+    </value>
+  </Operation>
+
+<!-- Pros Arm -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="SimpleProstheticArm"]/description</xpath>
+    <value>
+      <description>An installed prosthetic arm. Prosthetic arms restore Manipulation to comparable levels to an organic leg. This body part should be replaced with something more advanced as soon as possible.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallSimpleProstheticArm"]/description</xpath>
+    <value>
+      <description>Install a prosthetic arm. Each arm installed restores Manipulation by 25%</description>
+    </value>
+  </Operation>
+
+  <!-- Pros Heart -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="SimpleProstheticHeart"]/description</xpath>
+    <value>
+      <description>An installed prosthetic heart. As a reward for surviving open heart surgery, this person is not dead. This person also no longer experiences heart attacks or artery blockages, but will need to spend longer sleeping. This body part should be replaced with something more advanced as soon as possible.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallSimpleProstheticHeart"]/description</xpath>
+    <value>
+      <description>Install a prosthetic heart, restoring 80% Blood Pumping and eliminating the chance for any heart attacks or artery blockages. Better than nothing.</description>
+    </value>
+  </Operation>
+
+  <!-- Cochlear Implant -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="CochlearImplant"]/description</xpath>
+    <value>
+      <description>An installed cochlear implant. A replacement for a damaged or missing ear. This body part could probably be replaced with something more advanced, but it is sufficient for a person who does not specialise in the Social or Animals skills.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallCochlearImplant"]/description</xpath>
+    <value>
+      <description>Install a cochlear implant. The amount of Hearing restored is variable, starting at 49% Hearing Restored and then altering, depending on which ear is the dominant one, if a healthy ear is being replaced and what the other ear is.</description>
+    </value>
+  </Operation>
+
+  <!-- Power Claw -->
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="PowerClaw"]/description</xpath>
+    <value>
+      <description>An installed power claw. Power claws have a damage rating roughly quadruple that of a normal human fist as well as the ability to inflict cutting damage. For reference, an attack using this implant will attack 25% faster than a steel longsword and do damage higher than a plasteel longsword. Make no mistake, this is a weapon through and through that is only surpassed by very high-quality weaponry. The downside is that this person's speed and therefore dodging takes a serious hit and they are also unable to use advanced arm implants on the same shoulder that the power claw occupies.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallPowerClaw"]/description</xpath>
+    <value>
+      <description>Install a power claw, providing no Manipulation bonuses and no Manipulation penalties. However, there is a Movement penalty of 8% in exchange for this 22 Damage, 11 DPS, and 33 AP weapon.</description>
+    </value>
+  </Operation>
+
+  <!-- Joywire -->
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Joywire"]/description</xpath>
+    <value>
+      <description>An installed joywire implant. Just when you thought you couldn't reach a higher state of opulence, enter easily one of the worst implants one can install on themselves. In exchange for being a happy fool, this person is being penalized in every stat that matters. This hopefully isn't in a colonist.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallJoywire"]/description</xpath>
+    <value>
+      <description>Permanently install a joywire, providing a boost of 30 to Mood, and a penalty of 20% Consciousness. This is a bad idea to install on any colonists.</description>
+    </value>
+  </Operation>
+
+  <!-- Painstopper -->
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Painstopper"]/description</xpath>
+    <value>
+      <description>An installed painstopper implant. Living on the edge is far easier to do when you feel no pain. They cannot be downed by pain shock, instead only when made unable to stand. This has both benefits and drawbacks.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallPainstopper"]/description</xpath>
+    <value>
+      <description>Install a painstopper. The painstopper will eliminate all capacity for feeling pain, but also cause this person to never be downed outside of debilitating injury. This has both benefits and drawbacks.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="RemovePainstopper"]/description</xpath>
+    <value>
+      <description>Remove the painstopper, once again making this person susceptible to pain.</description>
+    </value>
+  </Operation>
+  
+</Patch>

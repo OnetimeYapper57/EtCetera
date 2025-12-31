@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Bionic Eye -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="BionicEye"]/description</xpath>
+    <value>
+      <description>An installed bionic eye. Bionic eyes are high-quality implants that improve Sight beyond that of an organic eye. They make good implants for both ranged and melee fighters. They also function as okay implants for cooks, doctors, and researchers by allowing for more precise work.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallBionicEye"]/description</xpath>
+    <value>
+      <description>Install a bionic eye, increasing Sight by 19% for the first eye installed, and 6% for the second eye installed.</description>
+    </value>
+  </Operation>
+
+  <!-- Bionic Arm -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="BionicArm"]/description</xpath>
+    <value>
+      <description>An installed bionic arm. Bionic arms have a damage rating slightly better than an organic arm. While they do indeed make for somewhat dangerous melee weapons by themselves, these arms truly shine when assigned to perform laborious tasks.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallBionicArm"]/description</xpath>
+    <value>
+      <description>Install a bionic arm. Each arm installed increases Manipulation by 12.5%.</description>
+    </value>
+  </Operation>
+
+  <!-- Bionic Leg -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="BionicLeg"]/description</xpath>
+    <value>
+      <description>An installed bionic leg. Bionic legs allow for increased agility and somewhat improved stealth ability. These legs are good for anyone not adverse to body modding. Pretty much any task that requires one to walk a significant distance will be completed in less time. Increased Moving improves Melee Dodge Chance by the equivalent of 2.25 levels of Melee skill per leg.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallBionicLeg"]/description</xpath>
+    <value>
+      <description>Install a bionic leg. Each leg installed increases Moving by 12.5%.</description>
+    </value>
+  </Operation>
+
+  <!-- Bionic Spine -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="BionicSpine"]/description</xpath>
+    <value>
+      <description>An installed bionic spine. It is a replacement for an injured or weakened spine. It is the same as a normal spine in terms of performance.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallBionicSpine"]/description</xpath>
+    <value>
+      <description>Install a bionic spine. Bionic spines increase no colonist stats and are only useful as a replacement.</description>
+    </value>
+  </Operation>
+
+  <!-- Bionic Heart -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="BionicHeart"]/description</xpath>
+    <value>
+      <description>An installed bionic heart. As a reward for surviving open heart surgery, this person sleeps less, moves faster, and is now immune to any heart conditions. This might sound minor, but every hour asleep is another hour of lost productivity.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallBionicHeart"]/description</xpath>
+    <value>
+      <description>Install a bionic heart. The stats a heart improve are multiplicative. Blood Pumping 25% (Rest Rate +8% and Moving x105%)</description>
+    </value>
+  </Operation>
+
+  <!-- Bionic Stomach -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="BionicStomach"]/description</xpath>
+    <value>
+      <description>An installed bionic stomach. Similarly to the bionic heart, a bionic stomach is useful for increasing how fast this person rests. This person is also immune to gut worms, but strangely is not immune to food poisoning.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallBionicStomach"]/description</xpath>
+    <value>
+      <description>Install a bionic stomach, increasing Digestion by 12.5% (Rest Rate x3.75%). This person also becomes immune to gut worms, but not food poisoning.</description>
+    </value>
+  </Operation>
+
+  <!-- Death Acidifier -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="DeathAcidifier"]/description</xpath>
+    <value>
+      <description>An installed death acidifier. Upon death, this person's carried gear will dissolve into nothing. These are commonly implanted into Empire soldiers to prevent advanced gear from being stolen and to preserve game balance.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallDeathAcidifier"]/description</xpath>
+    <value>
+      <description>Install a death acidifier. Death acidifiers don't do any damage to foes caught in its chemicals, but all gear worn by this person will be dissolved into nothing upon death. This part cannot be removed once installed.</description>
+    </value>
+  </Operation>
+
+  <!-- Bionic Ear -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="BionicEar"]/description</xpath>
+    <value>
+      <description>An installed bionic ear. Bionic ears are a replacement for a damaged ear and are useful for social experts or tamers.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallBionicEar"]/description</xpath>
+    <value>
+      <description>Install a bionic ear. The first ear installed increases Hearing by 19% and the second ear installed increases Hearing by a further 6%.</description>
+    </value>
+  </Operation>
+
+  <!-- Bionic Tongue -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="BionicTongue"]/description</xpath>
+    <value>
+      <description>An installed bionic tongue. Bionic tounges are a replacement for a damaged tounge. It is the same as a normal tounge in terms of performance.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallBionicTongue"]/description</xpath>
+    <value>
+      <description>Install a bionic tongue. Bionic tongues have no stats better than a normal tongue and are only useful as a replacement.</description>
+    </value>
+  </Operation>
+  <!-- Biotech -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <!-- Detoxifier Lung -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/HediffDef[defName="DetoxifierLung"]/description</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/HediffDef[defName="DetoxifierLung"]/description</xpath>
+            <value>
+              <description>An installed detoxifier lung. Immune to lung rot, asthma, rot stink, and acidic smog, and gives resistance to toxic buildup from toxic fallout, tox gas, and pollution, but not injected poisons from attacks or the other effects of tox gas. It is 10% better than an organic lung, with each one giving +5% Breathing, +1% Moving, and +1% Rest Rate Multiplier.</description>
+            </value>
+          </match>
+        </li>
+        <!-- Detoxifier Lung (Recipe) -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/RecipeDef[defName="InstallDetoxifierLung"]/description</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/RecipeDef[defName="InstallDetoxifierLung"]/description</xpath>
+            <value>
+              <description>Install a detoxifier lung, giving resistance to airborne toxins and all lung conditions.</description>
+            </value>
+          </match>
+        </li>
+        <!-- Detoxifier Kidney -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/HediffDef[defName="DetoxifierKidney"]/description</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/HediffDef[defName="DetoxifierKidney"]/description</xpath>
+            <value>
+              <description>An installed detoxifier kidney. Gives resistance to all sources of toxic buildup and is additionally immune to chemical damage from drugs. It is 10% better than an organic kidney, with each one giving +5% Blood Filtration and +2.5% Immunity Gain Speed.</description>
+            </value>
+          </match>
+        </li>
+        <!-- Detoxifier Kidney (Recipe) -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/RecipeDef[defName="InstallDetoxifierKidney"]/description</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/RecipeDef[defName="InstallDetoxifierKidney"]/description</xpath>
+            <value>
+              <description>Install a detoxifier kidney, giving resistance to all toxins and faster immunity gain.</description>
+            </value>
+          </match>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Odyssey -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <!-- Pilot Assistant — Hediff -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/HediffDef[defName="PilotAssistant"]/description</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/HediffDef[defName="PilotAssistant"]/description</xpath>
+            <value>
+              <description>An installed pilot assistant. This neural interface connects a pilot's brain directly to a vehicle, enhancing control and reaction speed.</description>
+            </value>
+          </match>
+        </li>
+        <!-- Pilot Assistant — Recipe -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/RecipeDef[defName="InstallPilotAssistant"]/description</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/RecipeDef[defName="InstallPilotAssistant"]/description</xpath>
+            <value>
+              <description>Install a pilot assistant, giving a +45% increase to piloting ability.</description>
+            </value>
+          </match>
+        </li>
+        <!-- Vacskin Gland — Hediff -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/HediffDef[defName="VacskinGland"]/description</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/HediffDef[defName="VacskinGland"]/description</xpath>
+            <value>
+              <description>An installed vacskin gland. The gland secretes a waxy substance that protects a person's skin from vacuum exposure and cold environments.</description>
+            </value>
+          </match>
+        </li>
+        <!-- Vacskin Gland — Recipe -->
+        <li Class="PatchOperationConditional">
+          <xpath>Defs/RecipeDef[defName="InstallVacskinGland"]/description</xpath>
+          <match Class="PatchOperationReplace">
+            <xpath>Defs/RecipeDef[defName="InstallVacskinGland"]/description</xpath>
+            <value>
+              <description>Install a vacskin gland, giving a +85% increase to vacuum resistance and a -10C (-18F) minimum comfortable temperature.</description>
+            </value>
+          </match>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

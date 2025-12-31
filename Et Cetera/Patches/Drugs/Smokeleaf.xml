@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="SmokeleafJoint"]/description</xpath>
+    <value>
+      <description>Smokeleaf leaves prepared in small rolls for smoking. The drug improves mood, but also increases appetite, reduces focus and slows movement. Smokeleaf use can produce a dependency.\n\nJoints can be produced at a crafting spot without equipment, and are a fixture in many traditional low-industriousness cultures.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="SmokeleafHigh"]/description</xpath>
+    <value>
+      <description>Smokeleaf's active chemicals spread within the bloodstream generating a soft feeling of fuzzy well-being.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="SmokeleafHigh"]/stages/li/description</xpath>
+    <value>
+      <description>I'm, like, stoned, man.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/NeedDef[defName="Chemical_Smokeleaf"]/description</xpath>
+    <value>
+      <description>Because of a smokeleaf dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="SmokeleafTolerance"]/description</xpath>
+    <value>
+      <description>A built-up tolerance to smokeleaf. The more severe this tolerance is, the more smokeleaf it takes to get the same effect.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="SmokeleafAddiction"]/description</xpath>
+    <value>
+      <description>A chemical addiction to smokeleaf. Long-term use of smokeleaf has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+\nWithout regular doses of smokeleaf, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="SmokeleafWithdrawal"]/stages/li/description</xpath>
+    <value>
+      <description>I'm scared, sad, and in desperate need of another hit. This, like, sucks, man.</description>
+    </value>
+  </Operation>
+
+
+</Patch>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Misc Hediffs -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Anesthetic"]/description</xpath>
+    <value>
+      <description>Sedative drugs are blocking signals within the nervous system, rendering creatures unaware or unconscious. It will take about 6 hours for the sedation to begin wearing off. After 12 hours or so, the sedation should be gone entirely.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="CoveredInFirefoam"]/description</xpath>
+    <value>
+      <description>Covered in a fire-retardant foam, reducing Flammability to 0%. Reputably very difficult to clean.</description>
+    </value>
+  </Operation>
+
+</Patch>

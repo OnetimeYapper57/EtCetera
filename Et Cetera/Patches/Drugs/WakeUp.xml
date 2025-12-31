@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="WakeUp"]/description</xpath>
+    <value>
+      <description>A synthetic stimulant. Wake-up fills the user's need for rest, allowing them to work for extended periods without getting tired. However, taking wake-up runs the risk of developing an addiction.\n\nIn the most competitive universities and companies of many worlds, high-achievers are sometimes called 'wake-ups' because of the association with this drug.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="WakeUpHigh"]/description</xpath>
+    <value>
+      <description>Wake-up pervades the bloodstream, filling the need for rest by stimulating the brain, and increases focus, allowing faster work. It also increases the psyfocus gains from meditation.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/NeedDef[defName="Chemical_WakeUp"]/description</xpath>
+    <value>
+      <description>Because of a wake-up addiction, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="WakeUpAddiction"]/description</xpath>
+    <value>
+      <description>A chemical addiction to wake-up. Long-term presence of wake-up has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+\nWithout regular doses of wake-up, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="WakeUpWithdrawal"]/stages/li/description</xpath>
+    <value>
+      <description>I feel disoriented and tired. I seriously need a nap.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="WakeUpTolerance"]/description</xpath>
+    <value>
+      <description>A built-up tolerance to wake-up. The more severe this tolerance is, the more wake-up it takes to get the same effect.</description>
+    </value>
+  </Operation>
+
+
+</Patch>

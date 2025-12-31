@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <TipSetDef>
+        <defName>EtCetera_CoreTips</defName>
+        <tips>
+            <li TKey="EtCetera_CoreTips1">Mechanoids can be stunned by EMP weapons, but they will become immune to them for a short time after the stun ends.</li>
+            <li TKey="EtCetera_CoreTips2">Traders will keep their goods on their pack animals if they have any. Don't go getting any ideas, now...</li>
+            <li TKey="EtCetera_CoreTips4">Colonists can be instructed to carry medicine on them in the Assign menu.</li>
+            <li TKey="EtCetera_CoreTips5">A doctor can treat a patient's wounds without using any kind of medicine, but it takes much longer and is far less effective. Use this for less valuable patients when medicine is low.</li>
+            <li TKey="EtCetera_CoreTips6">Overhead mountain provides a subtle cooling effect to rooms covered by it. A freezer room built into a mountain will be noticeably easier to cool.</li>
+            <li TKey="EtCetera_CoreTips7">Higher quality beds provide more comfort and also more rest effectiveness, reducing the time needed for sleeping.</li>
+            <li TKey="EtCetera_CoreTips8">Multiple colonists can research simultaneously as long as they all have a place to research at.</li>
+            <li TKey="EtCetera_CoreTips9">Installing a prosthetic organ on someone with a healthy version of the same organ will effectively harvest it for no diplomatic or emotional penalites.</li>
+            <li TKey="EtCetera_CoreTips10">Yayo is more potent (and slightly safer) than flake, but flake is more profitable to sell.</li>
+            <li TKey="EtCetera_CoreTips11">Go-juice is capable of turning the tides of battle when used correctly, but it has some very nasty withdrawal symptoms. Even so, an addicted colonist is better than a dead colonist.</li>
+            <li TKey="EtCetera_CoreTips12">Smokeleaf joints give a decent buzz, but also make a colonist very unproductive for a while. The Conciousness penalty is especially dangerous, as zero Conciousness means death.</li>
+        </tips>
+    </TipSetDef>
+    <TipSetDef MayRequire="Ludeon.RimWorld.Royalty">
+        <defName>EtCetera_RoyaltyTips</defName>
+        <tips>
+            <li TKey="EtCetera_RoyaltyTips1">Bionic stomach replacements and brain implants will cause the user to vomit or fall unconcious respectively when hit by an EMP.</li>
+        </tips>
+    </TipSetDef>
+    <TipSetDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>EtCetera_IdeologyTips</defName>
+        <tips>
+            <li TKey="EtCetera_IdeologyTips1">A colonist's role can be changed at any time with a simple ritual, but if they lose their role or go from a leader to a moral guide, they will be pretty unhappy for a while.</li>
+            <li TKey="EtCetera_IdeologyTips2">A colony can only have one leader at any time, but can have one moral guide per ideoligion, and as many specialists of an available type as desired.</li>
+            <li TKey="EtCetera_IdeologyTips3">Leaders and moral guides have increased expectations due to their ideoligious status. They will need more recreation types to stay entertained.</li>
+        </tips>
+    </TipSetDef>
+    <TipSetDef MayRequire="Ludeon.RimWorld.Biotech">
+        <defName>EtCetera_BiotechTips</defName>
+        <tips>
+            <li TKey="EtCetera_BiotechTips1">Xenogerms will overwrite the xenogenes of whoever they are implanted into, but will not change any germline genes. For example, implanting a hussar with a xenogerm will make them equivalent to a baseliner with the xenogerm's genes.</li>
+            <li TKey="EtCetera_BiotechTips2">If a xenogene conflicts with a germline gene, the germline gene will be supressed and will not affect metabolism. Make sure to consider this, or this may cause the patient's metabolism after implantation to be different than expected.</li>
+            <li TKey="EtCetera_BiotechTips3">Drug dependency genes allow a colonist to take a specific drug with no risk of overdose. These genes can be managed at a relatively low cost, making xenotypes with them desirable gene extraction targets.</li>
+            <li TKey="EtCetera_BiotechTips4">Genetic drug dependencies do not negatively affect young children. They will not experience deficiencies until they turn 13 years old.</li>
+        </tips>
+    </TipSetDef>
+    <TipSetDef MayRequire="Ludeon.RimWorld.Anomaly">
+        <defName>EtCetera_AnomalyTips</defName>
+        <tips>
+            <li TKey="EtCetera_AnomalyTips1">Killing an unnatural corpse after it awakens is nearly impossible, but it can be done.</li>
+            <li TKey="EtCetera_AnomalyTips2">All metalhorrors will reveal themselves when discovered through surgery or interrogation, or after a majority of your colonists have been infected.</li>
+            <li TKey="EtCetera_AnomalyTips3">Be aware that electroharvesters will halve the knowledge gain of connected entities due to the agitating effects of the machine. Consider disabling them if you already have enough power.</li>
+            <li TKey="EtCetera_AnomalyTips4">Devourers are the largest entities that can be captured, and will therefore generate the most power when connected to an electroharvester.</li>
+            <li TKey="EtCetera_AnomalyTips5">Most entities are much more dangerous when fought alone. Standard horror movie logic; always stick together!</li>
+            <li TKey="EtCetera_AnomalyTips6">The only skill ghouls use is Melee, and the only need they have is hunger. Consider this when selecting ghoulification candidates.</li>
+            <li TKey="EtCetera_AnomalyTips7">If you turn someone into a ghoul, they will immediately become part of your colony. Recruiting them is unnecessary.</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech" TKey="EtCetera_AnomalyTips8">Many negative genes like drug dependencies do not affect ghouls, but still add to their metabolic efficiency.</li>
+        </tips>
+    </TipSetDef>
+    <TipSetDef MayRequire="Ludeon.RimWorld.Odyssey">
+        <defName>EtCetera_OdysseyTips</defName>
+        <tips>
+            <li MayRequire="Ludeon.RimWorld.Biotech" TKey="EtCetera_OdysseyTips1">The genetic vacuum resistance of starjacks allows them to survive in space indefinitely with only a helmet, as long as they have enough insulation.</li>
+        </tips>
+    </TipSetDef>
+</Defs>

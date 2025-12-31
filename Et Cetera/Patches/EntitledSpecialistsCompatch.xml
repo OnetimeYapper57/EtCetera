@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Does anyone use "compatch" as shorthand for "compatibility patch"? I like it. -->
+<Patch>
+    <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Ideology,OnetimeYapper57.EntitledSpecialists">
+        <xpath>/Defs/TipSetDef[defName="EtCetera_IdeologyTips"]/tips/li[@TKey="EtCetera_IdeologyTips3"]</xpath>
+        <value>
+            <li TKey="EtCetera_IdeologyTips3">Leaders, moral guides, and most specialists have increased expectations due to their ideoligious status. They will need more recreation types to stay entertained.</li>
+        </value>
+    </Operation>
+</Patch>

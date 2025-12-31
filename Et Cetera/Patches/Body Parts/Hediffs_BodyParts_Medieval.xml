@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- Peg Leg -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="PegLeg"]/description</xpath>
+    <value>
+      <description>An installed peg leg. Argh me arty as gained ah leg o' wood e' as! From base o' britches to top o' brow e' arty! Ooooh! Ten bottles o' mead, ooh! A thousand bottles o' dust! Fiftly bottles o' tears, ooh! Make the hinges rust! \n\nA simple replacement that compels the person to make at least one pirate joke.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallPegLeg"]/description</xpath>
+    <value>
+      <description>Install a peg leg. Argh ol leg o' wood be dum-swaps for ye when blade n' shot take ye meaty ticks out from neath ye! Side e' ole meaty ticks, Moving be polished back ta 30% e leg o' wood!</description>
+    </value>
+  </Operation>
+
+  <!-- Wooden hand -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="WoodenHand"]/description</xpath>
+    <value>
+      <description>An installed wooden hand. Carved by a surgeon with careful consideration for each wooden joint, each wooden finger, and a few adjustments to make common shapes easier to hold.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallWoodenHand"]/description</xpath>
+    <value>
+      <description>Carve and install a wooden hand. Better than having no hand at all, a prosthetic arm, or a hand with only one finger remaining. Each wooden hand restores 30% Manipulation.</description>
+    </value>
+  </Operation>
+
+  <!-- Wooden foot -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="WoodenFoot"]/description</xpath>
+    <value>
+      <description>An installed wooden foot. Carved by a surgeon with little consideration for anything other than keeping one upright and allowing for basic movement. A wooden foot really is only one step up from a peg leg and should be replaced with more advanced implants as soon as possible.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallWoodenFoot"]/description</xpath>
+    <value>
+      <description>Carve and install a wooden foot. Better than having no foot at all. Peg leg enjoyers claim that wooden feet are inferior to peg legs, but this is largely false. Each wooden foot restores 40% Moving.</description>
+    </value>
+  </Operation>
+
+  <!-- Denture -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Denture"]/description</xpath>
+    <value>
+      <description>An installed denture. Better than nothing. Allows the person to speak and eat, if not well.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallDenture"]/description</xpath>
+    <value>
+      <description>Install dentures. Dentures restore 64% Talking and 72% Eating.</description>
+    </value>
+  </Operation>
+
+</Patch>

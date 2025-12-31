@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- Archotech Eye -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="ArchotechEye"]/description</xpath>
+    <value>
+      <description>An installed archotech eye. Archotech eyes are among the most potent implants one can install for soldiers. No matter if one is a wimpy recruit or a hardened veteran, these will bring the recruit up to par and give the veteran the ability to absolutely dominate the battlefield. Archotech eyes also function as a good implant for cooks, doctors, and researchers by allowing for more precise work.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallArchotechEye"]/description</xpath>
+    <value>
+      <description>Install an archotech eye, increasing Sight by 38% for the first eye installed, and 12% for the second eye installed.</description>
+    </value>
+  </Operation>
+
+<!-- Archotech Arm -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="ArchotechArm"]/description</xpath>
+    <value>
+      <description>An installed archotech arm. Archotech arms have a damage rating roughly double that of a normal human fist as well as serious armor piercing ability. For reference, an unarmed hit with these arms will do roughly the same amount of damage as a normal steel mace. While they do indeed make for dangerous melee weapons by themselves, these arms truly shine when assigned to perform laborious tasks.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallArchotechArm"]/description</xpath>
+    <value>
+      <description>Install an archotech arm. Each arm installed increases Manipulation by 25%.</description>
+    </value>
+  </Operation>
+
+<!-- Archotech Leg -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="ArchotechLeg"]/description</xpath>
+    <value>
+      <description>An installed archotech leg. Archotech legs allow for absurd agility and have the delicacy to allow one to move as stealthily as a ghost. These legs are great for anyone not adverse to body modding. Pretty much any task that requires one to walk a significant distance will be completed in far less time. Increased Moving improves Melee Dodge Chance by the equivalent of 4.5 levels of Melee skill per leg.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallArchotechLeg"]/description</xpath>
+    <value>
+      <description>Install an archotech leg. Each leg installed increases Moving by 25%.</description>
+    </value>
+  </Operation>
+
+</Patch>

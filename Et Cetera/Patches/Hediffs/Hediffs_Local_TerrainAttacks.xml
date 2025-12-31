@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Environmental Attacks -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="SandInEyes"]/description</xpath>
+    <value>
+      <description>Sand and dust have caked the eyes causing impaired vision and subtle anxiety. Blinking will eventually clear the eyes of debris and restore vision.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="DirtInEyes"]/description</xpath>
+    <value>
+      <description>Dirt cakes the eyes causing impaired vision and eye irritation. Blinking will eventually clear the eyes of debris and restore vision.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="MudInEyes"]/description</xpath>
+    <value>
+      <description>Mud cakes the eyes causing impaired vision and eye irritation. Blinking will eventually clear the eyes of debris and restore vision.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+  <xpath>Defs/HediffDef[defName="GravelInEyes"]/description</xpath>
+    <value>
+      <description>Gravel and dust spray the eyes causing impaired vision and eye irritation. Blinking will eventually clear the eyes of debris and restore vision.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="WaterInEyes"]/description</xpath>
+    <value>
+      <description>Water sprays the eyes causing slightly impaired vision and subtle anxiety. Blinking will eventually clear the eyes of foreign liquid and restore vision.</description>
+    </value>
+  </Operation>
+</Patch>

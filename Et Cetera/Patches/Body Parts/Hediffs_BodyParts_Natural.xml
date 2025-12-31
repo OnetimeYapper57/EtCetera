@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallNaturalHeart"]/description</xpath>
+    <value>
+      <description>Install a biological heart, restoring basic functionality to Blood Pumping and Metabolism.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallNaturalLung"]/description</xpath>
+    <value>
+      <description>Install a lung, restoring basic functionality to Breathing.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallNaturalKidney"]/description</xpath>
+    <value>
+      <description>Install a biological kidney, restoring basic functionality to Blood Filtration.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="InstallNaturalLiver"]/description</xpath>
+    <value>
+      <description>Install a biological liver, restoring basic functionality to Blood Filtration and Metabolism.</description>
+    </value>
+  </Operation>
+
+  
+</Patch>

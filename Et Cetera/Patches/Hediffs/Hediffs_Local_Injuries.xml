@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Missing Body Part -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="MissingBodyPart"]/description</xpath>
+        <value>
+            <description>A body part has been severed, shot off or extracted, and is now missing.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="Misc"]/description</xpath>
+        <value>
+            <description>Miscellaneous and unidentifiable injuries.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="Burn"]/description</xpath>
+        <value>
+            <description>An injury caused by contact with excessive heat or electricity, blistering skin and causing intense pain.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="ChemicalBurn"]/description</xpath>
+        <value>
+            <description>An injury caused by contact with caustic chemicals, causing skin to dry out and rupture. Intensely painful.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="Crush"]/description</xpath>
+        <value>
+            <description>A wound caused by blunt force.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="Crack"]/description</xpath>
+        <value>
+            <description>A bone fracture caused by the weight of severe blunt force.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="Cut"]/description</xpath>
+        <value>
+            <description>An incision in the skin caused by something sharp. Large cuts can cause large amounts of bleeding.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="SurgicalCut"]/description</xpath>
+        <value>
+            <description>A cut made during surgery thanks to the skills of an incompetent surgeon. Consider increasing the surgery room's cleanliness, using higher quality medicine, or just getting a better doctor.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="ExecutionCut"]/description</xpath>
+        <value>
+            <description>A neat cut made during an execution.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="Scratch"]/description</xpath>
+        <value>
+            <description>An area of damage on the skin that may also be cutting into the tissues and muscles nestled beneath.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="Bite"]/description</xpath>
+        <value>
+            <description>A wound caused by a creature piercing into flesh with it's teeth. Depending on the creature, even minor bites can turn into infections if not attended to effectively.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="Stab"]/description</xpath>
+        <value>
+            <description>A deep cavernous wound usually caused by something very sharp being thrust into the flesh.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="Gunshot"]/description</xpath>
+        <value>
+            <description>A deep craterous wound characterized by the shards of hot shrapnel embedded in the surrounding tissue.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="Shredded"]/description</xpath>
+        <value>
+            <description>A part of the body has been damaged by a sharp object or shrapnel.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="Bruise"]/description</xpath>
+        <value>
+            <description>A wound characterized by a darkened knot of tissue and damaged blood vessels welling up after blunt force.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="Frostbite"]/description</xpath>
+        <value>
+            <description>Frozen tissue caused by exposure to cold without adequate protection.\nFrostbite is very painful, and frostbitten body parts are often lost. Common on extremities like fingers and noses.</description>
+        </value>
+    </Operation>
+</Patch>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Party -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GatheringDef[defName="Party"]/letterText</xpath>
+    <value>
+      <letterText>{ORGANIZER_labelShort} is throwing a party! Everyone who attends will gain recreation, familiarize themselves with their fellow colonists, and recieve a lasting positive mood boost.</letterText>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GatheringDef[defName="Party"]/calledOffMessage</xpath>
+    <value>
+      <calledOffMessage>The party has been called off. How unfortunate.</calledOffMessage>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/GatheringDef[defName="Party"]/finishedMessage</xpath>
+    <value>
+      <finishedMessage>The party has come to an end. What a good time!</finishedMessage>
+    </value>
+  </Operation>
+</Patch>

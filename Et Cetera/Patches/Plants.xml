@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Rice -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Rice"]/description</xpath>
+		<value>
+			<description>A short, fast-growing crop that yields small edible grains. Its great nutritional output and ease of cultivation has made it the economic core of many great civilizations. While rice grows quickly, it is sensitive to soil fertility and will not fare well in poor soil. Rice requires far more labor to reap and sow than other plants, but it is very useful when lots of food is needed relatively quickly, and is a staple food in small colonies.</description>
+		</value>
+	</Operation>
+	<!-- Corn -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Corn"]/description</xpath>
+		<value>
+			<description>A tall grain plant which produces ears of soft, edible seeds. While corn takes a long time to grow, it yields lots of food compared to other crops. Corn benefits from richer soil due to its long grow time. Harvested corn takes a long time to spoil.</description>
+		</value>
+	</Operation>
+	<!-- Potato -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Potato"]/description</xpath>
+		<value>
+			<description>A highly nutritious tuber. Potatoes grow well even in somewhat poor soil, and form a delicious crispy outer coating when fried in oil. They are a good choice when fertile soil is scarce or far away.</description>
+		</value>
+	</Operation>
+	<!-- Cotton -->
+	<!-- Why did I make a compatibility check for this, but not any other, more popular mods? Idk. -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Cotton to Cloth</li>
+		</mods>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Plant_Cotton"]/description</xpath>
+			<value>
+				<description>A mid-size crop that has been genetically modified to yield cloth directly from the plant.</description>
+			</value>
+		</nomatch>
+	</Operation>
+	<!-- Strawberries -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Plant_Strawberry"]/description</xpath>
+		<value>
+			<description>A low bush-like plant that yields fragile but delicious strawberries. While it isn't quite as productive calorie-for-calorie as other crops, strawberries are delicious even when raw. They are less likely to cause food poisoning than most raw crops.</description>
+		</value>
+	</Operation>
+</Patch>

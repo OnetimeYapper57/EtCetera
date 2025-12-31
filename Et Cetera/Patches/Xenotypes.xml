@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!-- Baseliner -->
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/XenotypeDef[defName="Baseliner"]/description</xpath>
+					<match Class="PatchOperationReplace">
+						<xpath>Defs/XenotypeDef[defName="Baseliner"]/description</xpath>
+						<value>
+							<description>A naturally-evolved human with no major significant genetic modifications. They are more radiation resistant on average than the humans of Earth due to widespread exposure to cosmic radiation during early interstellar exploration.</description>
+						</value>
+					</match>
+					<nomatch/>
+				</li>
+				<!-- Impid -->
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/XenotypeDef[defName="Impid"]/description</xpath>
+					<match Class="PatchOperationReplace">
+						<xpath>Defs/XenotypeDef[defName="Impid"]/description</xpath>
+						<value>
+							<description>Made for desert life, impid cultures live on many rimworlds and dry deathworlds. Impids are extremely fast-moving, easily tolerate high temperatures, and can spew fire from their mouths. Though they are masters on the sand, impids struggle in other environments. They are terrible with farming. They fight well at range, but in close combat their physical weakness becomes apparent.\n\nOutlanders call them dustrunners because of their speed over open terrain and resistance to heat. Some tribes call them devils because of their horns and because they burn their enemies. Impid tribes' combat tactics usually center on rapid-approach incendiary attacks using both handheld fire weapons and their fire spew ability.\n\nFor whatever reason, many baseliners find impids very attractive, despite no alterations to their face structure or personalities. These baseliners refuse to explain themselves further, only offering frequent ramblings about "the impussy".</description>
+						</value>
+					</match>
+					<nomatch/>
+				</li>
+				<!-- Waster -->
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/XenotypeDef[defName="Waster"]/description</xpath>
+					<match Class="PatchOperationReplace">
+						<xpath>Defs/XenotypeDef[defName="Waster"]/description</xpath>
+						<value>
+							<description>Wasters are aggressive, immune to toxic pollution, almost impervious to disease, and can ingest as much psychite and wake-up drugs as they wish with no ill effects. Their toxin-adapted metabolism means they must consume some form of psychite - usually flake or yayo.\n\nOriginally engineered to prevent resettlement of post-apocalyptic deathworlds, wasters are living area-denial weapons. Waster pirates armed with toxic weapons are the bane of many frontier peoples, both on the rimworlds and in the depths of the urbworld hyperstructures.\n\nEven more peaceful waster societies have bad reputations, largely in part due to their infamously bad cooking skills and habit of being very unhygenic. A waster's idea of a perfectly fine meal is another's nuclear waste spill.</description>
+						</value>
+					</match>
+					<nomatch/>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

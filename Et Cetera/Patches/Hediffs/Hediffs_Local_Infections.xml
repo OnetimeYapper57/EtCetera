@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Infections -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="GutWorms"]/description</xpath>
+    <value>
+      <description>Parasitic worms in the gut are biting at the inner lining and causing vomiting. They also partially consume the victim's food, which increases hunger. The quickest cure for this is to replace the victim's stomach and install an artificial one. In the best case scenario with a tending quality over 100%, it's possible for the worms to pass in just under 5 days.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="MuscleParasites"]/description</xpath>
+    <value>
+      <description>Parasitic creatures are eating away at the muscles, causing moderate pain, weakness, severe tiredness and a lack of coordination. These things may as well be called "Pain in the ass parasites". For them to eventually die out, they need to reach a cumulative tending rating of 300%. What that means is, with a very competent doctor, it would take about 6 days for them to disappear.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="FibrousMechanites"]/description</xpath>
+    <value>
+      <description>Semi-coherent mechanites which develop fibrous links in muscle tissue. They enhance the victim's strength, but also cause intense pain. These are probably a mutated strain of strength-enhancing mechanites. If you have a way to offset the pain, this disease can honestly be called a blessing rather than a curse. Getting more tired than normal isn't great though. If you DON'T have ways to offset the pain, then expect 1-2 quadrums of endless sleeping, constant pain, and a hell of a strain on your medicine.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="SensoryMechanites"]/description</xpath>
+    <value>
+      <description>Semi-coherent mechanites which reside in the nervous system. They enhance the victim's senses, but also cause intense pain. These are probably a mutated strain of sense-enhancing mechanites. If you have a way to offset the pain, this disease can honestly be called a blessing rather than a curse. Especially if the victim is a socialite, gunner or skilled laborer. If not, then enjoy the 1-2 quadrums of endless sleeping, constant pain, and new stress on your medical supplies!</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="WoundInfection"]/description</xpath>
+    <value>
+      <description>Bacterial infection in a wound. Without treatment, the bacteria will multiply, killing local tissue, and eventually causing blood poisoning and death.
+      \nThrough aeons of human warfare, infections have often taken far more lives than the wounds themselves. Have a doctor and stay rested in a clean room, otherwise the fight against this infection may end up as a loss.\nIn a worst case scenario, the affected part can be removed to cure the infection, but not all parts can be amputated safely.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Flu"]/description</xpath>
+    <value>
+      <description>An infectious disease caused by the influenza virus. Typically a considered a minor worry at worst, as long as the sufferer is doped up on any medicine, it should be gone in under 4 days. However the story becomes far more frightening when the sufferer has a weakened immune system. Anyone with a base immunity rate of 58% or less is in trouble.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Animal_Flu"]/description</xpath>
+    <value>
+      <description>An infectious disease caused by the influenza virus. This strain is adapted for infecting non-human species. Not that it matters. With proper medication, animals beat this disease even faster than humans do.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Plague"]/description</xpath>
+    <value>
+      <description>An infectious disease sourced from bacteria potentially causing a wide variety of symptoms such as fever, weakness, pain, internal bleeding and chills. It spreads at a blistering pace, inflicts a terrifying amount of pain, and kills within 2 days if left untreated. Even for animals this disease has a habit of taking many lives in a short span of time. Even with great tending quality and permanent rest in a very clean room, the plague puts up one hell of a fight. A high Blood Filtration stat can be the slim difference between life and death. It might be worth it to pop some Penoxycyline every now and then to prevent this from happening again, depending on the disease frequency in this biome.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Animal_Plague"]/description</xpath>
+    <value>
+      <description>An infectious disease sourced from bacteria potentially causing a wide variety of symptoms such as fever, weakness, pain, internal bleeding and chills. This strain is adapted to infecting non-human species. It spreads at a blistering pace, inflicts a terrifying amount of pain, and kills within 2 days if left untreated. Even with great tending quality and permanent rest in a very clean room, the plague puts up one hell of a fight.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Malaria"]/description</xpath>
+    <value>
+      <description>An infectious disease caused by a mosquito-borne parasite is ravaging the body by killing off red blood cells. While it's possible to catch in any biome, the mosquitos that cause this disease frequently are found in Jungles. In just under 3 days, the disease of Green Hell will claim this poor soul if left alone. It might be worth it to pop some Penoxycyline every now and then to prevent this from happening again, depending on the disease frequency in this biome.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="SleepingSickness"]/description</xpath>
+    <value>
+      <description>An infectious disease caused by an insect-borne parasite found only within tropical climates. The parasite tends to populate the blood and eat fatty tissue. This includes the brain. Despite how absolutely terrifying that sounds, it takes a while for the parasite to breech the blood-brain barrier. Before this happens, the disease's main effect, outside of making one slightly sore, is slightly weakening the sufferer's Consciousness. \n\nSleeping sickness is not as deadly as some other diseases thanks to it's long time to kill. Just over 8 days in fact. Sleeping sickness fans on Glitterworld internet forums, who are not just human-sized versions of the sleeping sickness parasite typing at a computer, complain very loudly and often that they need a buff. No one else seems to care.</description>
+    </value>
+  </Operation>
+</Patch>

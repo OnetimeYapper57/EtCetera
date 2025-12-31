@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Demented Wander -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="WanderConfused"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0}'s mind has blanked out and [PAWN_pronoun] has lost track of where [PAWN_pronoun] is. Fear and confusion haunt [PAWN_possessive] movements, reducing {0} to an anxious mess.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="WanderConfused"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>{0}'s mind has recovered, but the fear may have left its mark.</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- Panic Flee -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="PanicFlee"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} is sprinting as fast as [PAWN_possessive] legs will carry [PAWN_objective], while screaming "FUCK! FUCK! FUCK!" the whole way.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="PanicFlee"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>{0} has found a miserable crumb of what one could call courage.</recoveryMessage>
+    </value>
+  </Operation>
+
+  <!-- Manhunter -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Manhunter"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} was calm once upon a time. A simple being participating within the circle of life. But through their own will alone or perhaps through foreign intervention, they have lost that calm. Primal hormones inherited from progenitors that ruled long ago surge and the blood runs hot as {0} finds a new way to interpret the circle of life. {0} has gone manhunter!</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/MentalStateDef[defName="Manhunter"]/recoveryMessage</xpath>
+    <value>
+      <recoveryMessage>Just as fast as the beast's rage surged, it has calmed. {0}'s bloodlust has ceased.</recoveryMessage>
+    </value>
+  </Operation>
+</Patch>

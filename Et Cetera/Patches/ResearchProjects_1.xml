@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- Tier 1 -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="PsychoidBrewing"]/description</xpath>
+        <value>
+            <description>Instructions to prepare psychoid leaves into a mildly euphoria-inducing, caffeinated and mildly addictive tea at the campfire or cooking stove. A cup of psychite tea requires 4 psychoid leaves and a Cooking skill of at least 2.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="TreeSowing"]/description</xpath>
+        <value>
+            <description>With careful observation you can sow the local biome's natural trees in your fields. Planted trees do not produce wood very quickly, and cutting down wild trees is faster, so the latter is usually preferable.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Brewing"]/description</xpath>
+        <value>
+            <description>Blueprints to build a brewery and fermenting vats to transform hops into beer. The process of fermentation usually takes around 6 days in the ideal conditions between 7C and 32C (44.6F and 89.6F).</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="ComplexFurniture"]/description</xpath>
+        <value>
+            <description>Blueprints to build complex furniture like beds, end tables, dining chairs, armchairs, dressers, tool cabinets, billiard tables, and poker tables, vents, sarcophagi, and more. Useful for staying comfortable, rested, and happy.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="PassiveCooler"]/description</xpath>
+        <value>
+            <description>Blueprints to make passive coolers that evaporate water to cool indoor spaces without using electricity. Passive coolers cannot reduce the temperature of a room below 17C (62.6F) and they require 10 wood every day to keep running. These coolers should ideally be replaced with electrical ones as soon as possible.</description>
+        </value>
+    </Operation>
+</Patch>

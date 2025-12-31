@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- Unique Revolver -->
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Gun_Revolver_Unique"]/description</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_Revolver_Unique"]/description</xpath>
+					<value>
+						<description>A revolver with customized parts. According to an ancient philosopher, six shots from it is "more than enough to kill anything that moves." Despite this, it's not very powerful, but has a decent role in close-quarters combat and is quick on the draw. Its large bullets are capable of staggering humans.</description>
+					</value>
+				</match>
+			</li>
+			<!-- Unique Bolt Action Rifle -->
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Gun_BoltActionRifle_Unique"]/description</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_BoltActionRifle_Unique"]/description</xpath>
+					<value>
+						<description>A bolt-action rifle with customized parts. With its very long range, good accuracy, and low fire rate, it is unlikely to drive animals to revenge, which makes it a favorite weapon for hunting. It's outclassed at short ranges, however, and requires a skilled user to be effective.</description>
+					</value>
+				</match>
+			</li>
+			<!-- Unique Chain Shotgun -->
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Gun_ChainShotgun_Unique"]/description</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_ChainShotgun_Unique"]/description</xpath>
+					<value>
+						<description>A chain shotgun with customized parts. It is even shorter-ranged than a typical shotgun, but is extraordinarily dangerous due to burst fire. Its high recoil and rapid fire rate make it inaccurate, especially in inexperienced hands.</description>
+					</value>
+				</match>
+			</li>
+			<!-- Unique LMG -->
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Gun_LMG_Unique"]/description</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_LMG_Unique"]/description</xpath>
+					<value>
+						<description>An LMG with customized parts. While it is somewhat unwieldy and inaccurate, its long bursts of fire are effective against groups of enemies. It does not slow the wielder as much as a minigun, and can stagger humans.</description>
+					</value>
+				</match>
+
+			</li>
+			<!-- Unique Heavy SMG -->
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Gun_HeavySMG_Unique"]/description</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_HeavySMG_Unique"]/description</xpath>
+					<value>
+						<description>A heavy SMG with customized parts. A compact, wide-caliber slug-thrower. It's got a very short range, but it packs a punch and handles quite well, making it suitable for less skilled shooters with defensive fortifications.</description>
+					</value>
+				</match>
+			</li>
+			<!-- Unique Assault Rifle -->
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Gun_AssaultRifle_Unique"]/description</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_AssaultRifle_Unique"]/description</xpath>
+					<value>
+						<description>An assault rifle with customized parts. It has good range, decent power, and good accuracy. It is useful in a wide variety of situations, but cannot stagger humans.</description>
+					</value>
+				</match>
+			</li>
+			<!-- Unique Minigun -->
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Gun_Minigun_Unique"]/description</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_Minigun_Unique"]/description</xpath>
+					<value>
+						<description>A minigun with customized parts. It's unwieldy, but once it starts firing it fires very fast. Where most self-loading guns are powered by the energy from the gunpowder, the minigun uses an electric motor to rapidly cycle cartridges through the weapon.\nHighly inaccurate, and takes a long time to aim and cool down, but devastatingly effective on large, bunched-up groups, as each missed shot has another potential target to hit.</description>
+					</value>
+				</match>
+			</li>
+			<!-- Unique Greatbow -->
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Bow_Great_Unique"]/description</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Bow_Great_Unique"]/description</xpath>
+					<value>
+						<description>A greatbow with customized parts. A powerful greatbow. Fires a heavy arrow long distances.</description>
+					</value>
+				</match>
+			</li>
+			<!-- Unique Charge Rifle -->
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Gun_ChargeRifle_Unique"]/description</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_ChargeRifle_Unique"]/description</xpath>
+					<value>
+						<description>A charge rifle with customized parts. Pulse-charge technology charges each shot with unstable energy as it leaves the barrel. Released on impact, the charged energy greatly increases the damage done. It is very good at piercing armor, but is expensive to manufacture.</description>
+					</value>
+				</match>
+			</li>
+			<!-- Unique Charge Lance -->
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Gun_ChargeLance_Unique"]/description</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_ChargeLance_Unique"]/description</xpath>
+					<value>
+						<description>A charge lance with customized parts. It fires a single shot at high velocity, charging it with unstable energy as it leaves the acceleration rail. It is capable of shooting off entire limbs, but is slow to fire.</description>
+					</value>
+				</match>
+			</li>
+			<!-- Unique Beam Repeater -->
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Gun_BeamRepeater_Unique"]/description</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_BeamRepeater_Unique"]/description</xpath>
+					<value>
+						<description>A beam repeater with customized parts. An ultratech weapon that emits gamma ray laser bursts in a rapid sequence. The tight gamma beams can pierce shields. It deals heat-based damage, unlike bullet-based firearms which deal sharp damage.</description>
+					</value>
+				</match>
+			</li>
+			<!-- Unique Sniper Rifle -->
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Gun_SniperRifle_Unique"]/description</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_SniperRifle_Unique"]/description</xpath>
+					<value>
+						<description>A sniper rifle with customized parts. Bolt action. It has an exceptionally long range, great accuracy and good power. Because it's so unwieldy, other weapons outclass it at close range. It has a very low fire rate, so its damage per second is lacking.</description>
+					</value>
+				</match>
+			</li>
+			<!-- Unique Hellcat Rifle -->
+			<li Class="PatchOperationConditional" MayRequire="Ludeon.Rimworld.Anomaly">
+				<xpath>Defs/ThingDef[defName="Gun_HellcatRifle_Unique"]/description</xpath>
+				<match Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Gun_HellcatRifle_Unique"]/description</xpath>
+					<value>
+						<description>A hellcat rifle with customized parts. A versatile assault rifle with good range, decent power, and good accuracy. It also comes equipped with a bioferrite-powered mini-burner unit which generates a blast of flame from pressurized bioferrite charges. The mini-burner unit can be used twice before refueling. The burner's blast is effective at warding off nearby targets, but the weight of the burner makes the gun slightly more unwieldy.</description>
+					</value>
+				</match>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

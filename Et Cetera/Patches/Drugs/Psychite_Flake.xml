@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Thing Flake -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Flake"]/description</xpath>
+    <value>
+      <description>A flaky white preparation of psychite that can be smoked to induce a short but powerful euphoric state. It can also be used as a crude painkiller. While it is cheap to produce and extremely pleasurable to use, it is exceptionally addictive. Flake is known for destroying lives, communities, and entire societies.</description>
+    </value>
+  </Operation>
+
+  <!-- Flake Hediff -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="FlakeHigh"]/description</xpath>
+    <value>
+      <description>Active flake in the bloodstream. Generates a euphoric, debilitating high.</description>
+    </value>
+  </Operation>
+
+  <!-- Flake Thought -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="FlakeHigh"]/stages/li/description</xpath>
+    <value>
+      <description>Oh yeah. That's it. That's the stuff.</description>
+    </value>
+  </Operation>
+
+</Patch>

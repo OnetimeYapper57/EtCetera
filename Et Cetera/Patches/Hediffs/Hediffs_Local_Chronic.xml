@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Chronic Disease -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="BadBack"]/description</xpath>
+    <value>
+      <description>Degradation in the spinal column and surrounding musculature making it hard to move and bend smoothly. Bad backs are usually caused by natural aging anywhere past 40 years old.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Frail"]/description</xpath>
+    <value>
+      <description>Generalized loss of muscle and bone density due to age. The usual cures for a frail body are a dose of luciferium or a dose of healer mech serum.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Cataract"]/description</xpath>
+    <value>
+      <description>Milky-looking opacity in the eye. Halves the efficency of the affected eye. Can be cured by replacing the eye.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Blindness"]/description</xpath>
+    <value>
+      <description>Total inability to see.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="HearingLoss"]/description</xpath>
+    <value>
+      <description>Inability to hear quiet sounds due to degradation of hair cells in the cochlea. Compared to other chronic diseases, bad hearing is far easier to resolve for any industrially literate colony.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Dementia"]/description</xpath>
+    <value>
+      <description>Neural degradation which causes deficits in the ability to think and remember. Dementia has various causes including aging, specific illnesses, and toxins. Like frailty, dementia's well known cures are a dose of luciferium or a dose of healer mech serum.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Alzheimers"]/description</xpath>
+    <value>
+      <description>A brain disease usually associated with aging. Alzheimer's disease causes progressive degradation in the ability to think and remember. Patients are known to forget close relatives and sometimes wander around in confusion and eventually horror dispersed with occasional flashes of burning memories.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Asthma"]/description</xpath>
+    <value>
+      <description>A long-term health condition where inflammation causes the airways to narrow, restricting the flow of oxygen to the lungs. It requires regular tending to prevent symptoms. The only known cure for Asthma is replacing the afflicted lung.</description>
+    </value>
+  </Operation>
+
+   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ExciseCarcinoma"]/description</xpath>
+    <value>
+      <description>Excise a carcinoma. This procedure is quite dangerous, requiring a medical skill of 10 to even attempt. The surgery itself only has a 70% success rate. In the case of failure, there's a 25% chance the patient dies before any injuries from the failure itself.</description>
+    </value>
+  </Operation>
+</Patch>

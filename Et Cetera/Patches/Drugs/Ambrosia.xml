@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- What is Ambrosia? -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Ambrosia"]/description</xpath>
+    <value>
+      <description>A soft, rare fruit tied to stories of divinity, ascending to the other-side, and granting the curse of immortality. Ambrosia's taste matches the myth with its heavenly texture, subtle notes of sweetness, and wild rush of mind-bending chemicals that provide a mood-increasing chemical high. However, if eaten too often, it can generate a mild addiction.</description>
+    </value>
+  </Operation>
+
+  <!-- Ambrosia High -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="AmbrosiaHigh"]/description</xpath>
+    <value>
+      <description>Ambrosia's chemicals pervade the bloodstream, lifting the mood but noticeably lacking in radical powers of immortality. A damned shame indeed.</description>
+    </value>
+  </Operation>
+
+  <!-- Think Ambrosia Error? -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="AmbrosiaHigh"]/stages/li/description</xpath>
+    <value>
+      <description>Ahh, feed of the gods. It's incredibly sweet...</description>
+    </value>
+  </Operation>
+
+  <!-- Need Ambrosia -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/NeedDef[defName="Chemical_Ambrosia"]/description</xpath>
+    <value>
+      <description>Because of an ambrosia addiction, this person needs to regularly consume ambrosia to avoid withdrawal symptoms.</description>
+    </value>
+  </Operation>
+
+  <!-- Ambrosia Tolerance -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="AmbrosiaTolerance"]/description</xpath>
+    <value>
+      <description>A built-up tolerance to ambrosia. The more severe this tolerance is, the more ambrosia it takes to get the same effect.</description>
+    </value>
+  </Operation>
+
+  <!-- Ambrosia Addiction -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="AmbrosiaAddiction"]/description</xpath>
+    <value>
+      <description>A chemical addiction to ambrosia. Long-term presence of ambrosia has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+\nWithout regular doses of ambrosia, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+    </value>
+  </Operation>
+
+  <!-- Ambrosia Withdrawal Error? -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="AmbrosiaWithdrawal"]/stages/li/description</xpath>
+    <value>
+      <description>I feel so heavy and endlessly cold. Am I being punished? Just for some fruit?</description>
+    </value>
+  </Operation>
+</Patch>

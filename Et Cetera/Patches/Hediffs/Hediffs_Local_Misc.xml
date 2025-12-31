@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Misc Injuries -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="TraumaSavant"]/description</xpath>
+    <value>
+      <description>An exceptional condition caused by brain trauma. The brain, in the face of severe injury, has developed heightened abilities in some areas, mainly Manipulation, while in exchange losing the gifts of speech and hearing. While a healer mech serum can indeed recover the senses, the savant's loss of Manipulation or perhaps the rediscovery of an insufferable chatterbox may cause some to reconsider.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="ChemicalDamageModerate"]/description</xpath>
+    <value>
+      <description>Chemical damage at the cellular level initiates autoxidation, leading to "autoxidative cellular injury," disrupting cell membranes, and resulting in increased autophagocytosis, cell death, and potential mental retardation. The only currently known cure for this breed of chemical damage is healer mech serum.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="ChemicalDamageSevere"]/description</xpath>
+    <value>
+      <description>Chemical damage at the cellular level initiates autoxidation, leading to "autoxidative cellular injury," disrupting cell membranes, and resulting in increased autophagocytosis, cell death, and severely damaged kidneys. The easiest cure for this breed of chemical damage is replacing the damaged body part with a new one.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Cirrhosis"]/description</xpath>
+    <value>
+      <description>Scarring of the liver caused by continuous, long-term liver damage. Scar tissue replaces healthy tissue in the liver and prevents the liver from working properly. Usually the cause is excessive alcohol consumption. A weaker liver also signifies a weakened immune system making this person especially vulnerable to disease.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Sterilized"]/description</xpath>
+    <value>
+      <description>This creature's reproductive system has been permanently shut down.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Sterilize"]/description</xpath>
+    <value>
+      <description>Sterilize a creature so it can no longer reproduce.</description>
+    </value>
+  </Operation>
+</Patch>

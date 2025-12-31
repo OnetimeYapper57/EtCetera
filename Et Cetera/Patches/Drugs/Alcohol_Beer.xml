@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Wort -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Wort"]/description</xpath>
+		<value>
+			<description>Un-fermented beer. This substance needs to be fermented in a barrel before it becomes drinkable beer.</description>
+		</value>
+	</Operation>
+	<!-- Alcohol High -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName="AlcoholHigh"]/description</xpath>
+		<value>
+			<description>Alcohol pervades the bloodstream, making people happy, but reducing Manipulation at lower levels, reducing Consciousness and Moving at middling levels, and causing vomiting and social fighting at higher levels. If one consumes enough alcohol to become blackout drunk, they can rarely suffer chemical damage to their brain.</description>
+		</value>
+	</Operation>
+	<!-- Hangover -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName="Hangover"]/description</xpath>
+		<value>
+			<description>An unpleasant delayed after-effect of alcohol intoxication. Hangovers reduce mood in addition to bearing penalties to Consciousness.</description>
+		</value>
+	</Operation>
+	<!-- Thought Hangover -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThoughtDef[defName="Hungover"]/stages</xpath>
+		<value>
+			<stages>
+				<li>
+					<label>mild hangover</label>
+					<description>Almost there. The headache is almost gone.</description>
+				</li>
+				<li>
+					<label>serious hangover</label>
+					<description>I feel like trash. Had a bit too much to drink.</description>
+				</li>
+				<li>
+					<label>pounding hangover</label>
+					<description>Ugh. It feels like a gaggle of geese are pecking at my skull.</description>
+				</li>
+			</stages>
+		</value>
+	</Operation>
+	<!-- Needs Alcohol -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/NeedDef[defName="Chemical_Alcohol"]/description</xpath>
+		<value>
+			<description>Because of an alcohol addiction, this person needs to regularly consume alcohol to avoid withdrawal symptoms.</description>
+		</value>
+	</Operation>
+	<!-- Tolerance -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName="AlcoholTolerance"]/description</xpath>
+		<value>
+			<description>A built-up tolerance to alcohol. The more severe this tolerance is, the more alcohol that must be drunk to get the same buzz.</description>
+		</value>
+	</Operation>
+	<!-- Alcohol Addiction -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName="AlcoholAddiction"]/description</xpath>
+		<value>
+			<description>A chemical addiction to alcohol. Long-term presence of alcohol has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+\nWithout regular doses of alcohol, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+		</value>
+	</Operation>
+	<!-- Think Alcohol Withdrawal -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThoughtDef[defName="AlcoholWithdrawal"]/stages/li/description</xpath>
+		<value>
+			<description>Feeling shaky. Everything pisses me off. God, I could really use a drink.</description>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Knife -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Knife"]/description</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Knife"]/description</xpath>
+			<value>
+				<description>One of mankind's oldest manufactured objects. The knife has taken many forms, but the concept has always remained the same: A handle for holding and a sharp edge for cutting. Despite its simple design, knives made from advanced materials can compete with larger weapons like longswords.</description>
+			</value>
+		</match>
+	</Operation>
+	<!-- Ikwa -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Ikwa"]/description</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Ikwa"]/description</xpath>
+			<value>
+				<description>A short spearhandle attached to a long bladed point, designed to be driven into vital organs with a quick thrust. It deals slightly greater damage than a knife, but is much slower to strike.</description>
+			</value>
+		</match>
+	</Operation>
+	<!-- Spear -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Spear"]/description</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Spear"]/description</xpath>
+			<value>
+				<description>A polearm tipped with a sharp point for stabbing opponents. Cannot slash multiple body parts like other sharp weapons, but is very good at piercing armor.</description>
+			</value>
+		</match>
+	</Operation>
+	<!-- Mace -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Mace"]/description</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Mace"]/description</xpath>
+			<value>
+				<description>A refined club, engineered for efficient swinging and deadly impacts. Capable of crushing smaller body parts and simultaneously damaging the parts they are attached to.</description>
+			</value>
+		</match>
+	</Operation>
+	<!-- Gladius -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Gladius"]/description</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_Gladius"]/description</xpath>
+			<value>
+				<description>A short sword of ancient design. It is inferior to a knife in almost every way.</description>
+			</value>
+		</match>
+	</Operation>
+	<!-- Longsword -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_LongSword"]/description</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="MeleeWeapon_LongSword"]/description</xpath>
+			<value>
+				<description>The ancient weapon of kings, the longsword can be used for slashing or stabbing, dealing high damage and potentially cleaving multiple body parts in a single swing.</description>
+			</value>
+		</match>
+	</Operation>
+</Patch>

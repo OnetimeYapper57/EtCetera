@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Thing Penoxycyline -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Penoxycyline"]/description</xpath>
+    <value>
+      <description>A drug for preventing infections before they take hold. Blocks malaria, sleeping sickness, and plague. Must be taken every five days to remain effective.\n\nThis drug only prevents new infections. It does not cure existing infections - even those that are not yet discovered. Penoxycyline is not addictive, but can contribute to minor overdoses if taken with hard drugs.</description>
+    </value>
+  </Operation>
+
+  <!-- Hediff Penoxycyline -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="PenoxycylineHigh"]/description</xpath>
+    <value>
+      <description>Penoxycyline-induced immunity to certain illnesses. This only blocks new infections; it does nothing for those who are already infected, even if their infection is dormant.</description>
+    </value>
+  </Operation>
+</Patch>

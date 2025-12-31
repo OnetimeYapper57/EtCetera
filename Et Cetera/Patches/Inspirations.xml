@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Work Frenzy -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Frenzy_Work"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} can't contain [PAWN_objective]self and will work much faster for the next 8 days.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Frenzy_Work"]/endMessage</xpath>
+    <value>
+      <endMessage>{0} is finally out of steam. [PAWN_pronoun] is no longer in a Work Frenzy.</endMessage>
+    </value>
+  </Operation>
+
+  <!-- Go Frenzy -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Frenzy_Go"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} got a pip in [PAWN_possessive] step and will now move faster for the next 8 days.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Frenzy_Go"]/endMessage</xpath>
+    <value>
+      <endMessage>{0} is finally tuckered out. [PAWN_pronoun] is no longer in a Go Frenzy.</endMessage>
+    </value>
+  </Operation>
+
+  <!-- Shoot Frenzy -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Frenzy_Shoot"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} has gained insight into master marksmanship and will shoot far more accurately for the next 8 days.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Frenzy_Shoot"]/endMessage</xpath>
+    <value>
+      <endMessage>{0} has forgotten [PAWN_possessive] marksman insight. [PAWN_pronoun] is no longer in a Shoot Frenzy.</endMessage>
+    </value>
+  </Operation>
+
+  <!-- Trade Frenzy -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Inspired_Trade"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} has an idea about how to get a significant trade price bonus when closing [PAWN_possessive] next trade deal.\n\nThe idea will expire after 8 days, or when the deal is done.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Inspired_Trade"]/endMessage</xpath>
+    <value>
+      <endMessage>{0} has retired [PAWN_possessive] trading scheme. [PAWN_pronoun] no longer has a trading inspiration.</endMessage>
+    </value>
+  </Operation>
+
+  <!-- Recruitment Frenzy -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Inspired_Recruitment"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} has developed a strongly persuasive mood and will successfully recruit the next prisoner regardless of difficulty or resistance.\n\nThe mood will disappear after 8 days, or when the prisoner is recruited.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Inspired_Recruitment"]/endMessage</xpath>
+    <value>
+      <endMessage>{0} has lost [PAWN_possessive] persuasive mood. [PAWN_pronoun] no longer has a recruitment inspiration.</endMessage>
+    </value>
+  </Operation>
+  
+  <!-- Taming Frenzy -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Inspired_Taming"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} has developed a strange mood and will successfully tame the next animal regardless of difficulty.\n\nThe mood will end after 8 days, or when an animal was tamed.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Inspired_Taming"]/endMessage</xpath>
+    <value>
+      <endMessage>{0} has lost [PAWN_possessive] strange mood. [PAWN_pronoun] no longer has a taming inspiration.</endMessage>
+    </value>
+  </Operation>
+
+  <!-- Surgery Frenzy -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Inspired_Surgery"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} just had a clever theory on surgical practices. The next time [PAWN_pronoun] performs a surgery, [PAWN_possessive] chance of success will be doubled. A small minimum chance of failure still applies.\n\nThe inspiration will end after 8 days, or when the surgery is performed.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Inspired_Surgery"]/endMessage</xpath>
+    <value>
+      <endMessage>{0} has retired [PAWN_possessive] theory. [PAWN_pronoun] no longer has a surgical inspiration.</endMessage>
+    </value>
+  </Operation>
+
+  <!-- Creative Frenzy -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Inspired_Creativity"]/beginLetter</xpath>
+    <value>
+      <beginLetter>{0} has been struck by fleeting creative inspiration. The next time [PAWN_pronoun] creates anything, whether that be furniture, an item, or art, it will be two quality levels higher than it would otherwise be. This even allows the creation of legendary items.\n\nThe inspiration will end after 8 days, or when the creation is completed.</beginLetter>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/InspirationDef[defName="Inspired_Creativity"]/endMessage</xpath>
+    <value>
+      <endMessage>{0} is back to being unmotivated. [PAWN_pronoun] no longer has a creative inspiration.</endMessage>
+    </value>
+  </Operation>
+</Patch>

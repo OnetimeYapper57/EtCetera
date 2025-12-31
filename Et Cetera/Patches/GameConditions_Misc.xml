@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Solar Flare -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="SolarFlare"]/description</xpath>
+		<value>
+			<description>A solar flare is exciting the planet's upper atmosphere. The electromagnetic interference will prevent most electrical devices from working for some time.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="SolarFlare"]/endMessage</xpath>
+		<value>
+			<endMessage>The solar flare is ending.</endMessage>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="SolarFlare"]/letterText</xpath>
+		<value>
+			<letterText>A solar flare has begun.\n\nThe intense radiation will shut down all electrical devices.\n\nIt should pass in about a day.</letterText>
+		</value>
+	</Operation>
+	<!-- Eclipse -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="Eclipse"]/description</xpath>
+		<value>
+			<description>An eclipse is covering the surface of the planet, plunging the world into shadow. It will be dark even during the daytime.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="Eclipse"]/endMessage</xpath>
+		<value>
+			<endMessage>The eclipse is coming to an end.</endMessage>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="Eclipse"]/letterText</xpath>
+		<value>
+			<letterText>A moon of this planet has orbited in front of the sun. An eclipse has begun.</letterText>
+		</value>
+	</Operation>
+	<!-- Psychic Drone -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="PsychicDrone"]/description</xpath>
+		<value>
+			<description>A distant archotech is emitting hateful psychic signals through an orbital amplifier, driving people towards insanity.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="PsychicDrone"]/descriptionFuture</xpath>
+		<value>
+			<descriptionFuture>a [psychicDroneLevel] psychic drone will buzz the area around [map_definite] for [gameConditionDuration_duration], pushing all people of the [psychicDroneGender] gender crazy. Damn those Archotechs to hell!</descriptionFuture>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="PsychicDrone"]/endMessage</xpath>
+		<value>
+			<endMessage>The psychic drone is ending.</endMessage>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="PsychicDrone"]/letterText</xpath>
+		<value>
+			<letterText>Every {0} colonist feels a wave of anxiety and anger!\n\nSome distant engine of wrath is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit worse.\n\nThe drone level is {1}.</letterText>
+		</value>
+	</Operation>
+	<!-- Psychic Soothe -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="PsychicSoothe"]/description</xpath>
+		<value>
+			<description>A distant archotech is emitting calming psychic signals through an orbital amplifier, calming people and stabilizing their minds.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="PsychicSoothe"]/endMessage</xpath>
+		<value>
+			<endMessage>The psychic soothe is coming to an end.</endMessage>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="PsychicSoothe"]/letterText</xpath>
+		<value>
+			<letterText>Every {0} colonist smiles with contentment!\n\nSome distant engine of happiness is stirring. It is projecting a psychic drone onto this site through an orbital amplifier, tuned to only affect {0}s. For a few days, some people's mood will be quite a bit better.</letterText>
+		</value>
+	</Operation>
+	<!-- Toxic Fallout -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="ToxicFallout"]/description</xpath>
+		<value>
+			<description>A plume of toxic dust from some distant source is slowly settling over this entire region. Any living thing not under a roof will be slowly irradiated and poisoned. Items left outside will corrode at an accelerated pace.\n\nThe effects of fallout can be mitigated with gas masks or other sources of toxic resistance.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="ToxicFallout"]/descriptionFuture</xpath>
+		<value>
+			<descriptionFuture>a cloud of toxic fallout will blanket the area around [map_definite] for [gameConditionDuration_duration], killing outdoor plant and animal life.</descriptionFuture>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="ToxicFallout"]/endMessage</xpath>
+		<value>
+			<endMessage>The worst of the toxic fallout has settled.</endMessage>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="ToxicFallout"]/letterText</xpath>
+		<value>
+			<letterText>A distant chemical fire has released a plume of poison over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by the toxic dust settling out of the atmosphere.\n\nIt will last for anywhere between a few days to over a quadrum.</letterText>
+		</value>
+	</Operation>
+	<!-- Volcanic Winter -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="VolcanicWinter"]/description</xpath>
+		<value>
+			<description>Some distant volcano or fire is choking the atmosphere with copious amounts of ash, significantly reducing the amount of light which reaches the surface. Temperatures will be colder and plants will grow slower.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="VolcanicWinter"]/descriptionFuture</xpath>
+		<value>
+			<descriptionFuture>a layer of ash will be deposited in the upper atmosphere, reducing sunlight around [map_definite] for [gameConditionDuration_duration] and seriously harming the local ecosystem.</descriptionFuture>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="VolcanicWinter"]/endMessage</xpath>
+		<value>
+			<endMessage>Most of the ash has settled.</endMessage>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="VolcanicWinter"]/letterText</xpath>
+		<value>
+			<letterText>Some distant volcano or fire has begun spewing massive quantities of ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few weeks, or it might last many quadrums.</letterText>
+		</value>
+	</Operation>
+	<!-- Heat Wave -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="HeatWave"]/description</xpath>
+		<value>
+			<description>An extreme wave of heat is baking the area.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="HeatWave"]/descriptionFuture</xpath>
+		<value>
+			<descriptionFuture>a heat wave will bake the area around [map_definite] for [gameConditionDuration_duration], harming crops and possibly killing people or animals in uncooled areas.</descriptionFuture>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="HeatWave"]/endMessage</xpath>
+		<value>
+			<endMessage>The heat wave is over.</endMessage>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="HeatWave"]/letterText</xpath>
+		<value>
+			<letterText>An unusual heat wave has begun.\n\nClothes such as cowboy hats, dusters, and tribalwear can offset some of the heat for colonists. Passive coolers and electric coolers can help make indoors more bearable. Adding a second layer of walls to your buildings can do a lot to keep them insulated from extreme temperatures. (Adding more than 3 layers does not further improve insulation.)</letterText>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/GameConditionDef[defName="HeatWave"]/letterHyperlinks</xpath>
+		<value>
+			<li>Apparel_CowboyHat</li>
+			<li>Apparel_Duster</li>
+		</value>
+	</Operation>
+	<!-- Cold Snap -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="ColdSnap"]/description</xpath>
+		<value>
+			<description>An unusual cold snap is plunging the temperatures of this region far below freezing point.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="ColdSnap"]/descriptionFuture</xpath>
+		<value>
+			<descriptionFuture>a front of cold air will cool the area around [map_definite] for [gameConditionDuration_duration], harming crops and any person or animal without adequate protection.</descriptionFuture>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="ColdSnap"]/endMessage</xpath>
+		<value>
+			<endMessage>The cold snap is ending.</endMessage>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="ColdSnap"]/letterText</xpath>
+		<value>
+			<letterText>An unusual cold snap has set in.\n\nCold snaps can quickly kill by way of hypothermia. Be sure to build a heated space via a campfire or electric heater to survive, wear appropriate apparel such as parkas, and try to harvest any crops or plants before they freeze and die.</letterText>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/GameConditionDef[defName="ColdSnap"]</xpath>
+		<value>
+			<letterHyperlinks>
+				<li>Campfire</li>
+				<li>Heater</li>
+				<li>Apparel_Parka</li>
+			</letterHyperlinks>
+		</value>
+	</Operation>
+	<!-- Flashstorm -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="Flashstorm"]/description</xpath>
+		<value>
+			<description>A freak localized storm is blasting multiple areas with repeated lightning strikes.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="Flashstorm"]/endMessage</xpath>
+		<value>
+			<endMessage>The flashstorm is over.</endMessage>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="Flashstorm"]/letterText</xpath>
+		<value>
+			<letterText>A freak localized flashstorm is striking multiple areas with lightning. This can cause massive fires if not managed carefully.\n\nCreate fire breaks by removing any vegetation that could be caught by a lone ember from the fire. These fire breaks can also be created by placing fireproof objects in a barrier about 2 tiles thick in the fire's path.</letterText>
+		</value>
+	</Operation>
+	<!-- Planetkiller -->
+	<!-- Good thing skulls are in Core now. -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/GameConditionDef[defName="Planetkiller"]</xpath>
+		<value>
+			<letterHyperlinks>
+				<li>Skull</li>
+			</letterHyperlinks>
+		</value>
+	</Operation>
+	<!-- Aurora -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="Aurora"]/description</xpath>
+		<value>
+			<description>An aurora is lighting up the sky. The breathtaking display will boost the mood of anyone outside to see it.</description>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="Aurora"]/endMessage</xpath>
+		<value>
+			<endMessage>The aurora is coming to an end.</endMessage>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/GameConditionDef[defName="Aurora"]/letterText</xpath>
+		<value>
+			<letterText>A beautiful aurora is lighting up the sky.\n\nThe undulating colors will boost the mood of anyone outside to see them, and make the night brighter.</letterText>
+		</value>
+	</Operation>
+</Patch>
